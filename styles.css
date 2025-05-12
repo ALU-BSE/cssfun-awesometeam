@@ -16,11 +16,11 @@ body {
 
 .profile-card {
     width: 360px;
-    margin: 0 auto;
+    margin: 2rem auto;
     background-color: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-    padding: 4px;
+    padding: 0;
     overflow: hidden;
 }
 
@@ -34,13 +34,14 @@ body {
     width: 120px;
     height: 120px;
     border-radius: 100%;
+    border: 3px solid #FFFFFF;
 }
 
 .profile-name {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 600;
     color: #FFFFFF;
-    margin: 0 0 0 4px;
+    margin: 0 0 4px;
 }
 
 .profile-title {
@@ -57,16 +58,28 @@ body {
     font-size: 1rem;
     line-height: 1.5;
     color: #555555;
+    margin: 0 0 20px;
 }
 
 .profile-skills {
     list-style-type: none;
-    padding: 0;
+    padding: 12px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
     background-color: #FFFFFF;
+    border-radius: 8px;
     margin: 0;
+}
+
+.profile-skills li {
+    display: inline-block;
+    background-color: #5C6BC019;
+    color: #5C6BC0;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 500;
 }
 
 .profile-footer {
@@ -84,6 +97,6 @@ body {
 }
 
 .social-link:hover {
-    color: #3F51B5;
+    color: #5C6BC0BA;
     transform: translateY(-2px);
 }
