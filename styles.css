@@ -98,6 +98,6 @@ body {
 }
 
 .social-link:hover {
-    color: #5C6BC0BA;
+    color:purple;
     transform: translateY(-2px);
 }
