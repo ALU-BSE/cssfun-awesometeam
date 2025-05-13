@@ -91,6 +91,7 @@ body {
 .social-link {
     display: inline-block;
     color: #5C6BC0;
+    padding: 10px 20px;
     text-decoration: none;
     margin: 0 12px;
     transition: all 0.3s ease;
